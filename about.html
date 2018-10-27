@@ -6,7 +6,7 @@
     <title>About Us</title>
     <style>
         .panel {
-            height: 500px auto !important;
+            height: 500px;
             width: 100% auto !important;
             display: inline-felx;
             align-items: center;
@@ -14,7 +14,6 @@
             background-image: url('https://images.pexels.com/photos/1483938/pexels-photo-1483938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
             background-repeat: no-repeat;
             background-size: cover;
-            list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
@@ -48,11 +47,17 @@
             padding-right: 22px;
             margin-right: 22px;
         }
+
+        .nav
+        {
+            font-style: inherit;
+            flex-wrap: wrap;
+        }
     </style>
 </head>
 <body>
 
-    <div class="nav"></div>
+    <div class="nav">
     <ul>
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
