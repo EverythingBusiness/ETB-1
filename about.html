@@ -11,9 +11,57 @@
             width: 100% auto !important;
         }
 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #fff;
+            font-size: 20px;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: #287A89;
+                font-weight: 400;
+                text-align: center;
+                padding: 10px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #287A89;
+                }
+
+        .active {
+            background-color: #60A6B2;
+        }
+
+        .sign {
+            float: right;
+            padding-right: 22px;
+            margin-right: 22px;
+        }
     </style>
 </head>
 <body>
+
+    <div class="nav"></div>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="agents.html">Agents</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li class="signin.php"><a href="members">Signin</a></li>
+
+    </ul>
+    </div>
 
     <section class="container">
         <img src="images/adult-african-announcement-1059114" height="auto !important" width="100% auto !important" />
