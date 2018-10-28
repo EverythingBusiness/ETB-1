@@ -5,17 +5,21 @@
     <meta charset="utf-8" />
     <title>About Us</title>
     <style>
-        .panel {
-            height: 700px;
-            width: 100% auto !important;
-            display: inline-flex;
-            align-items: center;
-            flex-wrap: inherit;
-            background-image: url('https://images.pexels.com/photos/1483938/pexels-photo-1483938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-            background-repeat: no-repeat;
-            background-size: cover;
-        } 
-        
+    .panel 
+    { 
+        height: 500px; 
+        width: 100% auto !important; 
+        display: inline-flex; 
+        align-items: center; 
+        flex-wrap: inherit; 
+        background-image: url('https://raw.githubusercontent.com/nakeshialorde/ETB/457dab98331f47b5d76139aec4d24765b9ab2aea/images/accounting-application-business-1483938.jpg'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+
+    } 
+       </style>
+    
+    <style>
         ul {
             list-style-type: none;
             margin: 0;
@@ -52,26 +56,17 @@
             padding-right: 22px;
             margin-right: 22px;
         }
-
-        .container
-        {
-            display: inline-flex;
-            flex-direction: row;
-            flex-wrap: wrap;
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 0px;
         }
 
-        .item 1
-        {
-            width: 65%;
-            float: left;
+        .grid-item {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
         }
-
-    .item2 
-    { 
-        width: 35%; 
-        background-image: url('https://github.com/nakeshialorde/ETB/blob/master/images/adult-african-announcement-1059114.jpg?raw=true'); 
-        float: right; 
-     }
     </style>
 </head>
 <body>
@@ -86,20 +81,37 @@
         <li class="sign"><a href="signin.php" float="right">Signin</a></li>
 
     </ul>
-  
-    <div class="panel" id="panel"></div>
+
+    <div class="panel"></div>
 
 
-    <div class="container" id="container">
-        <div class="item1">
-            <p><h1>Why choose us?</h1></p>
-            <p>Our team of trained experts can help your business grow, without the hassle and cost of advertising and HR. 
-            Our services are cost effective, high quality, reliable. We handle the recruiting, subcontracts and all transactions 
-            are taken care by our outbound services. All you have to do is schedule a consultation, browse our list of agents and
-            get started on the service/project of your choice.</p>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h1>Why choose us?</h1>
+            
+                Our team of trained experts can help your business grow, without the hassle and cost of advertising and HR.
+                Our services are cost effective, high quality, reliable. We handle the recruiting, subcontracts and all transactions
+                are taken care by our outbound services. All you have to do is schedule a consultation, browse our list of agents and
+                get started on the service/project of your choice.
+         
         </div>
-        <div class="item2"></div>
-    </div>  
+        <div class="grid-item"><img src="https://github.com/nakeshialorde/ETB/blob/master/images/adult-african-announcement-1059114.jpg?raw=true" height="440px" width="850px" /></div>
+        <div class="grid-item"><h1>What we Do</h1></div>
+        <div class="grid-item"><img src=">"</div>
+        <div class="grid-item">Our Process</div>
+        <div class="grid-item"<img src="" /></div>
+        <div class="grid-item">How it works!</div>
+        <div class="grid-item"><img src="" /></div>
+        <div class="grid-item">
+            <ul>
+                <li></li>
+
+            </ul>
+        </div>
         
+        Contact Us: Email: consultation@evetythingbusiness.org $nsp#; Phone: (246) 236-5819 Facebook</div>
+   
+
+
 </body>
 </html>
